@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Luke Van Bakel</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+	
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="wrapper">
+				<i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
+				<h2>lc</h2>
+				<a href="#contact">Contact</a>
+				<a href="#gallery">Portfolio</a>
+				<a href="#about">About</a>
+			</div>
+		</nav>
+
+		<h1 class="title">Luke Casey</h1>
+		<h2 class="title">developer of web</h2>
+	</header>
+		<section class="about clearfix" id="about">
+			<div class="wrapper clearfix">
+				<div class="left clearfix">
+					<p>Thanks for stopping by! My name is Luke Van Bakel. I am a web developer living in Toronto's east end. I like to build nice, responsive, digital experiences with dry and efficient code. I love working on teams, being challenged, learning, and growing. When I am not writing code, you can find me in my kitchen, in my garden, or on my couch*. If I have managed to leave my house, you can likely find me near or around food.</p>
+					<p class="special">*Look here first.</p>	
+					<h3>What I can do</h3>
+					<div class="icons">
+						<img class="special" src="images/devicons/css3.png" alt="">
+						<img src="images/devicons/sublime.png" height="32" width="27" alt="">
+						<img src="images/devicons/html5.png" height="32" width="32" alt="">
+						<img src="images/devicons/github_alt.png" height="32" width="32" alt="">
+						<img src="images/devicons/gulp.png" height="32" width="32" alt="">
+						<img src="images/devicons/javascript_1.png" height="32" width="32" alt="">
+						<img src="images/devicons/ruby.png" height="32" width="32" alt="">
+						<img src="images/devicons/sass.png" height="32" width="32" alt="">
+					</div>			
+				</div>
+				<div class="flip-container">
+					<div class="flipper">
+						<div class="front">
+							<img src="images/unspecified.jpg" alt="Head Shot">
+						</div>
+						<div class="back">
+							<img src="images/backside.jpg" alt="Head Shot">
+						</div>
+					</div>
+				</div>
+
+				</div>
+		</section>
+
+		<section class="portfolio clearfix" id="gallery">
+			<div class="wrapper">
+				<h1>Gallery</h1>
+				<h3>Personal</h3>
+				<div class="personal">
+					<a href="LukeVanBakel_Project 3/index.html">Here</a>
+				</div>
+				<h3>Corporate</h3>
+				<div class="corporate">
+					<a href="LukeVanBakel_Project2/index.html">Here</a>
+				</div>
+				<h3>Blog</h3>
+				<div class="blog">
+					<a href="Single Page/index.html">Here</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<div class="wrapper">
+				<h2>Contact</h2>
+				<form action="http://www.focuspocus.io/magic/lukevanbakel@gmail.com" method="POST" enctype="multipart/form-data">
+					<input type="text" name="name" placeholder="Your Name">
+					<input type="email" name="email" placeholder="Your Email">
+					<textarea name="text" id="" cols="30" rows="10" placeholder="Tell me a little about your project here..."></textarea>
+					<input type="submit" class="special">
+				</form>
+				<h3 class="special">email: lukevanbakel@gmail.com</h3>
+			</div>
+		</section>
+		<footer class="clearfix">	
+			<h3>Site inspired by HackerYou wireframes.</h3>
+			<h3>Patterns from subtlepatterns.com</h3>
+			<h3>Photo by Pam Lau</h3>
+		</footer>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+		<script src="jquery.smooth-scroll.js"></script>
+		<script>
+			$(function() {
+
+			    // Document is ready! All your code goes inside.
+			    // You only need one of these per page
+
+			    $('nav a').smoothScroll({
+			    	offset: -60,
+			    	speed: 800,
+			    });
+			}); 
+		</script>
+</body>
+</html>

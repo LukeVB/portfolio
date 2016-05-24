@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project Three</title>
+	<link rel="stylesheet" href="flickity.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<header>
+	<div class="nav">
+		<h2>I'mma Let You Refinish</h2>
+			<div class="buttons">
+				<a href="">Home</a>
+				<a href="#services">Services</a>
+				<a href="#about">About</a>
+				<a href="#portfolio">Portforlio</a>
+				<a href="#testimonials">Testimonials</a>
+				<a href="#contact">Contact</a>
+			</div>
+	</div>	
+	<h1>fresh, quality, craftsmanship</h1>	
+	</header>
+	<section class="section-one" id="services">
+		<h1>What we offer</h1>
+		<h2>Bring your furniture to life</h2>
+		<div class="column-left">
+			<h3>Restoration</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ullam repellendus ut dolores esse distinctio, possimus laborum accusantium hic perspiciatis.</p>
+			<h3>Refinishing</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo nobis atque, soluta ducimus reiciendis explicabo aut repellat animi cum iste!</p>
+			<h3>Repurposing</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam atque officia, eligendi praesentium culpa repudiandae nihil expedita voluptatibus, itaque dolorem.</p>
+		</div>
+		<div class="column-right">
+			<h3>Painting</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non qui maxime dolores aut totam reprehenderit ad ex aspernatur veniam nihil.</p>
+			<h3>Repairs</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam veniam sit reprehenderit voluptates officia provident culpa quae nobis, nostrum itaque.</p>
+			<h3>Something Else</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium iste tenetur error eligendi dolorum quaerat exercitationem itaque modi. Sit, quasi.</p>
+		</div>
+	</section>
+	<section class="section-two">
+		<img src="images/shaunandi2.jpg" alt="Photo of Shaun and Luke">
+		<div class="content">
+			<h1 id="about">Who we are</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et recusandae itaque cum consequuntur cupiditate aspernatur accusamus, assumenda aperiam soluta error, perspiciatis, ipsa dolorum nemo esse velit. Totam provident laboriosam delectus neque quo minima, doloremque animi id a rerum veniam dolorem, debitis dolore ullam corporis eum commodi quas iure sunt voluptatum.</p>
+		</div>
+	</section>
+	<section class="section-three">
+		<h1 id="portfolio">See our work</h1>
+		<div class="gallery js-flickity" data-flickity-options='{ "initialIndex": 2 }'>
+			<div class="gallerycell">
+				<img src="images/cupboard.jpg" alt="">
+			</div>
+			<div class="gallerycell">
+				<img src="images/drawars.jpg" alt="">
+			</div>
+			<div class="gallerycell">
+				<img src="images/shelves.jpg" alt="">
+			</div>
+			<div class="gallerycell">
+				<img src="images/table.jpg" alt="">
+			</div>
+			<div class="gallerycell">
+				<img src="images/coffetable.jpg" alt="">
+			</div>
+		</div>
+	</section>
+	<section class="section-four">
+		<h1 id="testimonials">Testimonials</h1>
+		<div class="left">
+			<img src="images/elliott.jpg" alt="Photo of Elliott">
+			<h2>Elliott Tilleczek</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas accusantium adipisci soluta, illum voluptates a sapiente quibusdam repudiandae inventore mollitia rem veniam, corporis aut cumque.</p>
+		</div>
+		<div class="right">
+			<img src="images/jesse.jpg" alt="Photo of Jesse">
+			<h2>Jesse Collin</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint non, cumque quibusdam atque eum quaerat cum! Illum fugiat voluptas distinctio ipsa sint dolorem voluptatum a!</p>
+		</div>
+	
+	</section>
+	<section class="section-five">
+	<h1 id="contact">Contact Us</h1>
+		<div class="contact">
+			<a href="tel:+6478252921" class="own">Phone Us</a>
+			<a href= "mailto:lukevanbakel@gmail.com" class="own">Email Us</a>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-via="rhwoSeoul" data-hashtags="immaletyourefinish">Tweet</a>		
+			<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
+		</div>	
+	</section>
+	<footer>
+		<h1>Design inspired by Colorpixels.net</h1>
+	</footer>
+
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="flickity.pkgd.min.js"></script>
+	<script>
+		$(function() {
+			$('.gallery').flickity({
+			options
+			cellAlign: 'left',
+			contain: true,
+			initialIndex: 2 
+			});
+		});
+	</script>
+</body>
+</html>
